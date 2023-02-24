@@ -1,0 +1,22 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        email:
+          type: string
+          format: email
+        name:
+          type: string
+        role:
+          type: string
+          enum: [user, admin]
+      example:
+        id: 5ebaasdasdasdcsefc112
+        email: madhu@abc.com
+        name: adasd
+        role: asd
+
+
